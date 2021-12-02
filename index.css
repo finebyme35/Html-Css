@@ -33,11 +33,12 @@
 
 .mainside-content{
     display: flex;
-
+    height: max-content;
 }
 .side-content{
+    position: relative;
     width: 25%;
-    height: 45vw;
+    
     background-color: turquoise;
 }
 .side-title{
@@ -45,6 +46,7 @@
     margin-top: 3rem;
 }
 .side-item{
+    position: fixed;
     list-style-type: none;
     padding: 1rem;
     margin: 1rem;
