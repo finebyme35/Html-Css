@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toolbar{
+    display:flex;
+    justify-content: space-between;
+    background-color: wheat;
+}
+.toolbar-title{
+    margin: 2rem;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.toolbar-item{
+    display:flex;
+    list-style-type: none;
+    margin: 1rem;
+}
+.toolbar-link{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: larger;
+    font-weight: 500;
+}
+.toolbar-link:hover, .toolbar-title:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.mainside-content{
+    display: flex;
+
+}
+.side-content{
+    width: 25%;
+    height: 45vw;
+    background-color: turquoise;
+}
+.side-title{
+    text-align: center;
+    margin-top: 3rem;
+}
+.side-item{
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+.side-link{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(219, 180, 173);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgb(240, 146, 24);
+}
+.side-link:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgb(155, 233, 233);
+}
+
+.main-content{
+    width: 100%;
+    background-color: tomato;
+}
+.main-card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.main-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.card{
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.card-title{
+    font-size: xx-large;
+    font-weight: 500;
+    color:rgb(3, 3, 3);
+
+}
+.btn{
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: black;
+    background-color: blueviolet;
+    padding: 1rem 2rem;
+
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+
+    background-color: crimson;
+}
+
+.footer{
+    background-color: thistle;
+    text-align: center;
+    height: 7.67vw;
+}
+.footer-title{
+    padding-top: 3rem;
+}
